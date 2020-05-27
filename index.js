@@ -54,7 +54,7 @@ client.on('message', async message  => {
           messageEmbed.description = `
           Le server est ouvert !\u200B
           \u200B
-          Il y a **${data.players.online}/${data.players.max}** joueur(s) connecté\u200B
+          Il y a **${data.players.now}/${data.players.max}** joueur(s) connecté\u200B
           Adresse du server: \`${minecraft.ip}\`
           `
           
