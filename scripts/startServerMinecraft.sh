@@ -1,0 +1,1 @@
+cd /Users/PC-FIXE-VINCENT/AppData/Roaming/.minecraft/server-minecraft/ && sh start.sh

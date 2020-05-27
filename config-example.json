@@ -1,0 +1,8 @@
+{
+    "prefix": "!",
+    "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "minecraft": {
+        "ip": "XX.XXX.XXX.XXX",
+        "api": "https://api.mcsrvstat.us/2/XX.XXX.XXX.XXX"
+    }
+}
