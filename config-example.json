@@ -3,6 +3,6 @@
     "token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "minecraft": {
         "ip": "XX.XXX.XXX.XXX",
-        "api": "https://mcapi.us/server/status?ip=XX.XXX.XXX.XXX"
+        "port": 25565
     }
 }
