@@ -83,7 +83,6 @@ prefix: \`!\`\u200B
 
     const botMessage = await message.channel.send(messageEmbed)
     // Start Server
-    console.log('Start Server');
     
     MinecraftServerService.start({
       onDisconnect: () => {},
@@ -103,8 +102,7 @@ prefix: \`!\`\u200B
 
     // Check server status to update discord message
     setTimeout(async () => {
-      console.log('Check server setTimeout');
-      await waitUntil(minecraftServerService.getStatus)
+      await waitUntil(MinecraftServerService.getStatus)
       .then(() => {
         messageEmbed.color = color.success
         messageEmbed.description = `
