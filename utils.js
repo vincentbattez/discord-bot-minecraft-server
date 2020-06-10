@@ -3,10 +3,13 @@ async function waitUntil(callbackPromise) {
   
   return await new Promise(resolve => {
     const interval = setInterval(() => {
+      console.log('do callback');
+
       callbackPromise()
         .then(() => {
           clearInterval(interval);
           console.log('clearInterval');
+
           resolve();
         })
         .catch(() => {
